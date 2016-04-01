@@ -1,0 +1,1209 @@
+fileFormatVersion: 2
+guid: 2800f3b2374ab9246bb03d04bca8ac8c
+timeCreated: 1458976481
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: barnacle.png
+    21300002: barnacle_attack.png
+    21300004: barnacle_dead.png
+    21300006: bee.png
+    21300008: bee_dead.png
+    21300010: bee_move.png
+    21300012: fishBlue.png
+    21300014: fishBlue_dead.png
+    21300016: fishBlue_fall.png
+    21300018: fishGreen.png
+    21300020: fishGreen_dead.png
+    21300022: fishGreen_move.png
+    21300024: fishPink.png
+    21300026: fishPink_dead.png
+    21300028: fishPink_move.png
+    21300030: fly.png
+    21300032: fly_dead.png
+    21300034: fly_move.png
+    21300036: frog.png
+    21300038: frog_dead.png
+    21300040: frog_move.png
+    21300042: ladybug.png
+    21300044: ladybug_fly.png
+    21300046: ladybug_move.png
+    21300048: mouse.png
+    21300050: mouse_dead.png
+    21300052: mouse_move.png
+    21300054: saw.png
+    21300056: sawHalf.png
+    21300058: sawHalf_dead.png
+    21300060: sawHalf_move.png
+    21300062: saw_dead.png
+    21300064: saw_move.png
+    21300066: slimeBlock.png
+    21300068: slimeBlock_dead.png
+    21300070: slimeBlock_move.png
+    21300072: slimeBlue.png
+    21300074: slimeBlue_dead.png
+    21300076: slimeBlue_hit.png
+    21300078: slimeBlue_move.png
+    21300080: slimeGreen.png
+    21300082: slimeGreen_dead.png
+    21300084: slimeGreen_hit.png
+    21300086: slimeGreen_move.png
+    21300088: slimePurple.png
+    21300090: slimePurple_dead.png
+    21300092: slimePurple_hit.png
+    21300094: slimePurple_move.png
+    21300096: snail.png
+    21300098: snail_move.png
+    21300100: snail_shell.png
+    21300102: wormGreen.png
+    21300104: wormGreen_dead.png
+    21300106: wormGreen_move.png
+    21300108: wormPink.png
+    21300110: wormPink_dead.png
+    21300112: wormPink_move.png
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: barnacle.png
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 620
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 42}
+        - {x: -48, y: -55}
+        - {x: -48, y: -64}
+        - {x: 48, y: -64}
+        - {x: 48, y: 17}
+        - {x: 36, y: 42}
+    - name: barnacle_attack.png
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 750
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 43}
+        - {x: -48, y: -2}
+        - {x: -48, y: -64}
+        - {x: 48, y: -64}
+        - {x: 48, y: 17}
+        - {x: 39, y: 43}
+    - name: barnacle_dead.png
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 880
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 42}
+        - {x: -48, y: -55}
+        - {x: -48, y: -64}
+        - {x: 48, y: -64}
+        - {x: 48, y: 17}
+        - {x: 36, y: 42}
+    - name: bee.png
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1010
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53, y: 44}
+        - {x: -53, y: -42}
+        - {x: -26, y: -48}
+        - {x: 45, y: -48}
+        - {x: 53, y: -29}
+        - {x: 53, y: 44}
+    - name: bee_dead.png
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1140
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53, y: 44}
+        - {x: -53, y: 1}
+        - {x: -49, y: -28}
+        - {x: -39, y: -42}
+        - {x: -16, y: -48}
+        - {x: 40, y: -48}
+        - {x: 53, y: -21}
+        - {x: 53, y: 44}
+    - name: bee_move.png
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1270
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53, y: 38}
+        - {x: -58, y: 21}
+        - {x: -58, y: 6}
+        - {x: -43, y: -32}
+        - {x: -12, y: -42}
+        - {x: 38, y: -42}
+        - {x: 58, y: -10}
+        - {x: 58, y: 38}
+    - name: fishBlue.png
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1400
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 52}
+        - {x: 13, y: 56}
+        - {x: -25, y: 56}
+        - {x: -43, y: 39}
+        - {x: -43, y: 1}
+        - {x: -28, y: -42}
+        - {x: -4, y: -57}
+        - {x: 7, y: -57}
+        - {x: 41, y: -27}
+        - {x: 43, y: -16}
+        - {x: 43, y: 35}
+    - name: fishBlue_dead.png
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1530
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 26}
+        - {x: 9, y: 56}
+        - {x: -6, y: 56}
+        - {x: -28, y: 41}
+        - {x: -43, y: -14}
+        - {x: -43, y: -31}
+        - {x: -28, y: -45}
+        - {x: -24, y: -44}
+        - {x: -17, y: -54}
+        - {x: -13, y: -57}
+        - {x: 6, y: -57}
+        - {x: 15, y: -55}
+        - {x: 43, y: -26}
+        - {x: 43, y: -8}
+        - {x: 35, y: 25}
+    - name: fishBlue_fall.png
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1660
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 26}
+        - {x: 9, y: 56}
+        - {x: -6, y: 56}
+        - {x: -28, y: 41}
+        - {x: -43, y: -14}
+        - {x: -43, y: -31}
+        - {x: -28, y: -45}
+        - {x: -24, y: -44}
+        - {x: -17, y: -54}
+        - {x: -13, y: -57}
+        - {x: 6, y: -57}
+        - {x: 15, y: -55}
+        - {x: 43, y: -26}
+        - {x: 43, y: -8}
+        - {x: 35, y: 25}
+    - name: fishGreen.png
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1790
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 33}
+        - {x: -8, y: 43}
+        - {x: -28, y: 43}
+        - {x: -57, y: 14}
+        - {x: -57, y: -16}
+        - {x: -56, y: -21}
+        - {x: -36, y: -43}
+        - {x: 0, y: -43}
+        - {x: 27, y: -35}
+        - {x: 57, y: -10}
+        - {x: 57, y: 0}
+        - {x: 39, y: 21}
+    - name: fishGreen_dead.png
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 33}
+        - {x: -8, y: 43}
+        - {x: -28, y: 43}
+        - {x: -57, y: 14}
+        - {x: -57, y: -16}
+        - {x: -56, y: -21}
+        - {x: -36, y: -43}
+        - {x: 0, y: -43}
+        - {x: 27, y: -35}
+        - {x: 57, y: -10}
+        - {x: 57, y: 0}
+        - {x: 39, y: 21}
+    - name: fishGreen_move.png
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 100
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 42}
+        - {x: -20, y: 42}
+        - {x: -22, y: 41}
+        - {x: -53, y: 16}
+        - {x: -53, y: -17}
+        - {x: -45, y: -35}
+        - {x: -33, y: -43}
+        - {x: -2, y: -43}
+        - {x: 43, y: -29}
+        - {x: 54, y: -7}
+        - {x: 54, y: 2}
+        - {x: 41, y: 24}
+    - name: fishPink.png
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 230
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 43}
+        - {x: -57, y: 25}
+        - {x: -57, y: -31}
+        - {x: -42, y: -43}
+        - {x: -2, y: -43}
+        - {x: 40, y: -27}
+        - {x: 57, y: -16}
+        - {x: 57, y: 10}
+        - {x: 27, y: 43}
+    - name: fishPink_dead.png
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 360
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 43}
+        - {x: -57, y: 25}
+        - {x: -57, y: -31}
+        - {x: -42, y: -43}
+        - {x: -2, y: -43}
+        - {x: 40, y: -27}
+        - {x: 57, y: -16}
+        - {x: 57, y: 10}
+        - {x: 27, y: 43}
+    - name: fishPink_move.png
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 490
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 42}
+        - {x: -20, y: 42}
+        - {x: -22, y: 41}
+        - {x: -53, y: 16}
+        - {x: -53, y: -17}
+        - {x: -45, y: -35}
+        - {x: -33, y: -43}
+        - {x: -2, y: -43}
+        - {x: 43, y: -29}
+        - {x: 54, y: -7}
+        - {x: 54, y: 2}
+        - {x: 41, y: 24}
+    - name: fly.png
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 620
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: 41}
+        - {x: -55, y: 41}
+        - {x: -55, y: -5}
+        - {x: -35, y: -45}
+        - {x: 37, y: -45}
+        - {x: 55, y: -27}
+        - {x: 55, y: 21}
+        - {x: 53, y: 31}
+    - name: fly_dead.png
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 750
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 36}
+        - {x: -61, y: -10}
+        - {x: -43, y: -39}
+        - {x: 31, y: -39}
+        - {x: 61, y: -31}
+        - {x: 61, y: 36}
+    - name: fly_move.png
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 880
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: 41}
+        - {x: -55, y: 41}
+        - {x: -55, y: -5}
+        - {x: -35, y: -45}
+        - {x: 37, y: -45}
+        - {x: 55, y: -27}
+        - {x: 55, y: 21}
+        - {x: 53, y: 31}
+    - name: frog.png
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1010
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 9}
+        - {x: -54, y: 3}
+        - {x: -54, y: -64}
+        - {x: 54, y: -64}
+        - {x: 54, y: -17}
+        - {x: 36, y: 9}
+    - name: frog_dead.png
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1140
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 35}
+        - {x: -57, y: 35}
+        - {x: -57, y: -40}
+        - {x: -52, y: -51}
+        - {x: -14, y: -64}
+        - {x: 53, y: -64}
+        - {x: 57, y: -61}
+        - {x: 57, y: -1}
+    - name: frog_move.png
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1270
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 18}
+        - {x: 4, y: 35}
+        - {x: -40, y: 35}
+        - {x: -57, y: 31}
+        - {x: -57, y: -37}
+        - {x: -26, y: -48}
+        - {x: 1, y: -64}
+        - {x: 56, y: -64}
+        - {x: 57, y: -63}
+        - {x: 57, y: -37}
+    - name: ladybug.png
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1400
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 0}
+        - {x: -40, y: -4}
+        - {x: -55, y: -40}
+        - {x: -55, y: -64}
+        - {x: 55, y: -64}
+        - {x: 55, y: -10}
+        - {x: 31, y: 0}
+    - name: ladybug_fly.png
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1530
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 14}
+        - {x: -46, y: -10}
+        - {x: -56, y: -42}
+        - {x: -56, y: -64}
+        - {x: 46, y: -64}
+        - {x: 53, y: -60}
+        - {x: 53, y: -9}
+        - {x: 47, y: 14}
+    - name: ladybug_move.png
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1660
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 0}
+        - {x: -56, y: -24}
+        - {x: -56, y: -63}
+        - {x: -54, y: -64}
+        - {x: 58, y: -64}
+        - {x: 58, y: -21}
+        - {x: 50, y: 0}
+    - name: mouse.png
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1790
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: 1}
+        - {x: -56, y: -1}
+        - {x: -56, y: -64}
+        - {x: 55, y: -64}
+        - {x: 55, y: -23}
+        - {x: 37, y: 1}
+    - name: mouse_dead.png
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 1}
+        - {x: -50, y: 1}
+        - {x: -56, y: -18}
+        - {x: -56, y: -64}
+        - {x: 55, y: -64}
+        - {x: 55, y: -27}
+    - name: mouse_move.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 100
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 1}
+        - {x: -51, y: 1}
+        - {x: -55, y: -8}
+        - {x: -55, y: -64}
+        - {x: 43, y: -64}
+        - {x: 54, y: -53}
+        - {x: 54, y: -22}
+        - {x: 53, y: -20}
+    - name: saw.png
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 490
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 59}
+        - {x: -59, y: 26}
+        - {x: -59, y: -22}
+        - {x: -43, y: -59}
+        - {x: 43, y: -59}
+        - {x: 59, y: -35}
+        - {x: 59, y: 27}
+        - {x: 41, y: 59}
+    - name: sawHalf.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 620
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: -5}
+        - {x: -56, y: -35}
+        - {x: -59, y: -59}
+        - {x: -59, y: -64}
+        - {x: 59, y: -64}
+        - {x: 59, y: -45}
+        - {x: 55, y: -26}
+        - {x: 35, y: -5}
+    - name: sawHalf_dead.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 750
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: -5}
+        - {x: -57, y: -35}
+        - {x: -59, y: -59}
+        - {x: -59, y: -64}
+        - {x: 59, y: -64}
+        - {x: 59, y: -42}
+        - {x: 37, y: -5}
+    - name: sawHalf_move.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 880
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: -6}
+        - {x: -32, y: -6}
+        - {x: -58, y: -32}
+        - {x: -58, y: -64}
+        - {x: 57, y: -64}
+        - {x: 58, y: -61}
+        - {x: 58, y: -39}
+        - {x: 40, y: -17}
+    - name: saw_dead.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 360
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 59}
+        - {x: -59, y: 26}
+        - {x: -59, y: -22}
+        - {x: -43, y: -59}
+        - {x: 43, y: -59}
+        - {x: 59, y: -35}
+        - {x: 59, y: 27}
+        - {x: 41, y: 59}
+    - name: saw_move.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 490
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 58}
+        - {x: -58, y: 30}
+        - {x: -58, y: -37}
+        - {x: -39, y: -58}
+        - {x: 28, y: -58}
+        - {x: 57, y: -45}
+        - {x: 58, y: -44}
+        - {x: 58, y: 40}
+        - {x: 47, y: 58}
+    - name: slimeBlock.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1010
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 30}
+        - {x: -48, y: 22}
+        - {x: -48, y: -56}
+        - {x: -43, y: -64}
+        - {x: 43, y: -64}
+        - {x: 48, y: -59}
+        - {x: 48, y: 23}
+        - {x: 38, y: 30}
+    - name: slimeBlock_dead.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1140
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 30}
+        - {x: -48, y: 22}
+        - {x: -48, y: -56}
+        - {x: -43, y: -64}
+        - {x: 43, y: -64}
+        - {x: 48, y: -59}
+        - {x: 48, y: 23}
+        - {x: 38, y: 30}
+    - name: slimeBlock_move.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1270
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 22}
+        - {x: -52, y: 19}
+        - {x: -52, y: -59}
+        - {x: -46, y: -64}
+        - {x: 46, y: -64}
+        - {x: 52, y: -58}
+        - {x: 52, y: 21}
+        - {x: 46, y: 22}
+    - name: slimeBlue.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1400
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 0}
+        - {x: -46, y: -15}
+        - {x: -46, y: -62}
+        - {x: -42, y: -64}
+        - {x: 46, y: -64}
+        - {x: 46, y: -21}
+        - {x: 26, y: 0}
+    - name: slimeBlue_dead.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1530
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 0}
+        - {x: -46, y: -15}
+        - {x: -46, y: -62}
+        - {x: -42, y: -64}
+        - {x: 46, y: -64}
+        - {x: 46, y: -21}
+        - {x: 26, y: 0}
+    - name: slimeBlue_hit.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1660
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: -39}
+        - {x: -33, y: -39}
+        - {x: -44, y: -44}
+        - {x: -53, y: -51}
+        - {x: -53, y: -64}
+        - {x: 51, y: -64}
+        - {x: 53, y: -62}
+        - {x: 53, y: -52}
+        - {x: 51, y: -45}
+    - name: slimeBlue_move.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1790
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: -8}
+        - {x: -52, y: -27}
+        - {x: -54, y: -34}
+        - {x: -54, y: -64}
+        - {x: 54, y: -64}
+        - {x: 54, y: -18}
+        - {x: 35, y: -8}
+    - name: slimeGreen.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 0}
+        - {x: -46, y: -15}
+        - {x: -46, y: -62}
+        - {x: -42, y: -64}
+        - {x: 46, y: -64}
+        - {x: 46, y: -21}
+        - {x: 26, y: 0}
+    - name: slimeGreen_dead.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 0}
+        - {x: -46, y: -15}
+        - {x: -46, y: -62}
+        - {x: -42, y: -64}
+        - {x: 46, y: -64}
+        - {x: 46, y: -21}
+        - {x: 26, y: 0}
+    - name: slimeGreen_hit.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: -39}
+        - {x: -33, y: -39}
+        - {x: -44, y: -44}
+        - {x: -53, y: -51}
+        - {x: -53, y: -64}
+        - {x: 51, y: -64}
+        - {x: 53, y: -62}
+        - {x: 53, y: -52}
+        - {x: 51, y: -45}
+    - name: slimeGreen_move.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: -8}
+        - {x: -52, y: -27}
+        - {x: -54, y: -34}
+        - {x: -54, y: -64}
+        - {x: 54, y: -64}
+        - {x: 54, y: -18}
+        - {x: 35, y: -8}
+    - name: slimePurple.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 490
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 0}
+        - {x: -46, y: -15}
+        - {x: -46, y: -62}
+        - {x: -42, y: -64}
+        - {x: 46, y: -64}
+        - {x: 46, y: -21}
+        - {x: 26, y: 0}
+    - name: slimePurple_dead.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 620
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 0}
+        - {x: -46, y: -15}
+        - {x: -46, y: -62}
+        - {x: -42, y: -64}
+        - {x: 46, y: -64}
+        - {x: 46, y: -21}
+        - {x: 26, y: 0}
+    - name: slimePurple_hit.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 750
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: -39}
+        - {x: -33, y: -39}
+        - {x: -44, y: -44}
+        - {x: -53, y: -51}
+        - {x: -53, y: -64}
+        - {x: 51, y: -64}
+        - {x: 53, y: -62}
+        - {x: 53, y: -52}
+        - {x: 51, y: -45}
+    - name: slimePurple_move.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 880
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: -8}
+        - {x: -52, y: -27}
+        - {x: -54, y: -34}
+        - {x: -54, y: -64}
+        - {x: 54, y: -64}
+        - {x: 54, y: -18}
+        - {x: 35, y: -8}
+    - name: snail.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1010
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 10}
+        - {x: -52, y: -32}
+        - {x: -52, y: -64}
+        - {x: 47, y: -64}
+        - {x: 52, y: -56}
+        - {x: 52, y: 7}
+        - {x: 42, y: 10}
+    - name: snail_move.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1140
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 10}
+        - {x: -40, y: 2}
+        - {x: -57, y: -45}
+        - {x: -57, y: -64}
+        - {x: 57, y: -64}
+        - {x: 57, y: 6}
+        - {x: 49, y: 10}
+    - name: snail_shell.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1270
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 2}
+        - {x: -41, y: -19}
+        - {x: -41, y: -59}
+        - {x: -36, y: -64}
+        - {x: 29, y: -64}
+        - {x: 41, y: -61}
+        - {x: 41, y: -7}
+        - {x: 22, y: 2}
+    - name: wormGreen.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60, y: -20}
+        - {x: -60, y: -52}
+        - {x: -52, y: -59}
+        - {x: -47, y: -64}
+        - {x: 47, y: -64}
+        - {x: 60, y: -49}
+        - {x: 60, y: -24}
+        - {x: 59, y: -20}
+    - name: wormGreen_dead.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1530
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60, y: -20}
+        - {x: -60, y: -52}
+        - {x: -52, y: -59}
+        - {x: -47, y: -64}
+        - {x: 47, y: -64}
+        - {x: 60, y: -49}
+        - {x: 60, y: -24}
+        - {x: 59, y: -20}
+    - name: wormGreen_move.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1660
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: -20}
+        - {x: -60, y: -28}
+        - {x: -60, y: -57}
+        - {x: -52, y: -59}
+        - {x: -27, y: -64}
+        - {x: 56, y: -64}
+        - {x: 60, y: -56}
+        - {x: 60, y: -20}
+    - name: wormPink.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1790
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60, y: -20}
+        - {x: -60, y: -52}
+        - {x: -52, y: -59}
+        - {x: -47, y: -64}
+        - {x: 47, y: -64}
+        - {x: 60, y: -49}
+        - {x: 60, y: -24}
+        - {x: 59, y: -20}
+    - name: wormPink_dead.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60, y: -20}
+        - {x: -60, y: -52}
+        - {x: -52, y: -59}
+        - {x: -47, y: -64}
+        - {x: 47, y: -64}
+        - {x: 60, y: -49}
+        - {x: 60, y: -24}
+        - {x: 59, y: -20}
+    - name: wormPink_move.png
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 230
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: -20}
+        - {x: -60, y: -31}
+        - {x: -60, y: -54}
+        - {x: -52, y: -59}
+        - {x: -40, y: -64}
+        - {x: 50, y: -64}
+        - {x: 60, y: -62}
+        - {x: 60, y: -33}
+        - {x: 46, y: -20}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

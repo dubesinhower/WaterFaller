@@ -44,12 +44,12 @@ class CustomTiledImporter : Tiled2Unity.ICustomTiledImporter
         Debug.Log("Customize prefab");
         var waterfallGameObject = GameObject.FindGameObjectWithTag("Waterfall");
 
-        if (waterfallGameObject.GetComponent<WaterfallScript>())
+        if (waterfallGameObject.GetComponent<WaterfallController>())
         {
             Debug.LogError("Waterfall Game Object already has a WaterfallScript component.");
             return;
         }
 
-        waterfallGameObject.AddComponent<WaterfallScript>();
+        waterfallGameObject.AddComponent<WaterfallController>();
     }
 }

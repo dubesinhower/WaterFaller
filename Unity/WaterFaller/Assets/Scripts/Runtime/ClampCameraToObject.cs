@@ -3,26 +3,22 @@ using System.Collections;
 using Tiled2Unity;
 
 // http://answers.unity3d.com/questions/501893/calculating-2d-camera-bounds.html
-public class ClampCameraToTiledPrefab : MonoBehaviour
+public class ClampCameraToObject : MonoBehaviour
 {
-    public GameObject Prefab;
+    public GameObject Object;
     private float _minX, _maxX, _minY, _maxY;
 
 	// Use this for initialization
 	void Start ()
 	{
-	    var tiledMap = Prefab.GetComponent<TiledMap>();
-
-	    var mapX = tiledMap.NumTilesWide;
-	    var mapY = tiledMap.NumTilesHigh;
 	    var vertExtent = Camera.main.orthographicSize;
 	    var horzExtent = vertExtent * Screen.width / Screen.height;
 
-        // Assumes the prefab extends to the bottom right
-	    _minX = Prefab.transform.position.x + horzExtent;
-	    _maxX = mapX - horzExtent;
-	    _minY = vertExtent - mapY;
-	    _maxY = Prefab.transform.position.y - vertExtent;
+        // Assumes the object is positioned at the origin
+	    _minX = horzExtent - Object.transform.localScale.x / 2.0f;
+	    _maxX = Object.transform.localScale.x / 2.0f - horzExtent;
+	    _minY = vertExtent - Object.transform.localScale.y / 2.0f;
+	    _maxY = Object.transform.localScale.y / 2.0f - vertExtent;
 	}
 	
 	// Update is called once per frame

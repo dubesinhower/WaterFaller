@@ -58,12 +58,6 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -71,8 +65,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\AlienController.cs" />
     <Compile Include="Assets\Scripts\CharacterController2D.cs" />
+    <Compile Include="Assets\Scripts\OffsetScrolling.cs" />
+    <Compile Include="Assets\Scripts\PlatformDisabler.cs" />
+    <Compile Include="Assets\Scripts\PlatformSpawner.cs" />
     <Compile Include="Assets\Scripts\PoissonDiskSampler.cs" />
-    <Compile Include="Assets\Scripts\Runtime\ClampCameraToTiledPrefab.cs" />
+    <Compile Include="Assets\Scripts\Runtime\ClampCameraToObject.cs" />
     <Compile Include="Assets\Scripts\Runtime\SmoothCamera2D.cs" />
     <Compile Include="Assets\Scripts\ScrollingMovement.cs" />
     <Compile Include="Assets\Scripts\SimplePool.cs" />

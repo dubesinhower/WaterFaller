@@ -1,19 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Tiled2Unity;
-
-public class Indices
-{
-    public int X { get; set; }
-    public int Y { get; set; }
-
-    public Indices(int x, int y)
-    {
-        X = x;
-        Y = y;
-    }
-}
 
 public class WaterfallController : MonoBehaviour
 {
@@ -84,10 +73,9 @@ public class WaterfallController : MonoBehaviour
         // http://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph07-poissondisk.pdf
 
         var sampler = new PoissonDiscSampler(_waterfallX - PlatformPadding * 2, _waterfallY * 3, PlatformDistance);
-        foreach (var vector2 in sampler.Samples())
+        foreach (var newPlatform in sampler.Samples().Select(vector2 => SimplePool.Spawn(PlatformGameObject,
+            vector2 + new Vector2(PlatformMargin + PlatformPadding, -_waterfallY), Quaternion.identity)))
         {
-            var newPlatform = SimplePool.Spawn(PlatformGameObject,
-                vector2 + new Vector2(PlatformMargin + PlatformPadding, -_waterfallY), Quaternion.identity);
             newPlatform.transform.SetParent(_tiledMap.gameObject.transform);
             _platforms.Enqueue(newPlatform);
         }
@@ -96,12 +84,11 @@ public class WaterfallController : MonoBehaviour
     void UpdateWaterfallMeshes()
     {
         // Check if the lowest mesh is below the waterfall
-        if (IsBelowWaterfall(_waterfallMeshes.Peek()))
-        {
-            var mesh = _waterfallMeshes.Dequeue();
-            mesh.transform.position += Vector3.up*_waterfallY*3;
-            _waterfallMeshes.Enqueue(mesh);
-        }
+        if (!IsBelowWaterfall(_waterfallMeshes.Peek())) return;
+        
+        var mesh = _waterfallMeshes.Dequeue();
+        mesh.transform.position += Vector3.up*_waterfallY*3;
+        _waterfallMeshes.Enqueue(mesh);
     }
 
     bool IsBelowWaterfall(GameObject obj)
